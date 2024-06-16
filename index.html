@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Doraemon Page</title>
     <style>
-        .a{
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            position: relative;
+            width: 500px;
+            height: 500px;
+        }
+        .a {
             background-color: #51a1c4;
             height: 500px;
             width: 500px;
@@ -16,56 +29,56 @@
             left: 10px;
             z-index: -1;
         }
-        .b{           
-           background-color: rgb(175, 0, 0);
-           height: 150px;
-           width: 300px;
-           border-radius: 0 0 180px 180px;
-           position: absolute;
-           border: 2px solid black;
-           z-index: 1;
-           top: 300px;
-           left: 105px; 
+        .b {           
+            background-color: rgb(175, 0, 0);
+            height: 150px;
+            width: 300px;
+            border-radius: 0 0 180px 180px;
+            position: absolute;
+            border: 2px solid black;
+            z-index: 1;
+            top: 300px;
+            left: 105px; 
         }
-        .c1,.c2{
+        .c1, .c2 {
             background-color: rgb(255, 255, 255);
             height: 140px;
             width: 160px;
-            border-radius:  50%;
+            border-radius: 50%;
             border: 1px solid black;
-            rotate: 90deg;
             position: absolute;
             z-index: 1;
+            transform: rotate(90deg);
         }
-        .c1{
+        .c1 {
             top: 60px;
             left: 100px;
         }
-        .c2{
+        .c2 {
             top: 60px;
             left: 241px;
         }
-        .d{
+        .d {
             background-color: rgb(193, 15, 15);
             height: 60px;
-            z-index: 1;
             width: 60px;
             border-radius: 50%;
             border: 1px solid black;
             position: absolute;
             top: 180px;
             left: 220px;
+            z-index: 1;
         }
-        .e{
-           background-color: black;
-           z-index: 1;
-           height: 60px;
-           width: 2.5px;
-           position: absolute;
-           top: 240px;
-           left: 253px;
+        .e {
+            background-color: black;
+            height: 60px;
+            width: 2.5px;
+            position: absolute;
+            top: 240px;
+            left: 253px;
+            z-index: 1;
         }
-        .f{
+        .f {
             background-color: aliceblue;
             height: 400px;
             width: 420px;
@@ -74,40 +87,41 @@
             top: 110px;
             left: 50px;
             border-radius: 50%;
+            
         }
-        .k1,.k2{
+        .k1, .k2 {
             background-color: black;
             height: 50px;
             width: 35px;
-            z-index: 1;
             position: absolute;
             border-radius: 50%;
+            z-index: 1;
         }
-        .k1{
+        .k1 {
             top: 140px;
             left: 280px;
         }
-        .k2{
+        .k2 {
             top: 140px;
             left: 190px;
         }
-        .g1,.g2{
+        .g1, .g2 {
             background-color: rgb(255, 255, 255);
             height: 20px;
             width: 15px;
-            z-index: 1;
             position: absolute;
-            border-radius: 50%;
-        }
-        .g1{
+            border-radius: 50%;      
+            z-index: 1;       
+         }
+        .g1 {
             top: 160px;
             left: 290px;
         }
-        .g2{
+        .g2 {
             top: 160px;
             left: 200px;
         }
-        .g3{
+        .g3 {
             background-color: #ffffffd3;
             height: 15px;
             width: 15px;
@@ -117,52 +131,52 @@
             left: 255px;
             z-index: 1;
         }
-        .m1,.m2,.m3,.m4,.m5,.m6{
+        .m1, .m2, .m3, .m4, .m5, .m6 {
             background-color: black;
             height: 2px;
             width: 180px;
             position: absolute;
         }
-        .m1{
+        .m1 {
             top: 210px;
             transform: rotate(12deg);
             left: 30px;
         }
-        .m2{
+        .m2 {
             top: 245px;
             left: 30px;
         }
-        .m3{
+        .m3 {
             top: 275px;
             left: 30px;
             transform: rotate(170deg);
         }
-        .m4{
+        .m4 {
             top: 215px;
             left: 310px;
             transform: rotate(-12deg);
         }
-        .m5{
+        .m5 {
             height: 3px;
             top: 250px;
             left: 310px;       
         }
-        .m6{
+        .m6 {
             top: 280px;
             left: 310px;
             transform: rotate(-170deg);
         }
        
-        .t{
+        .t {
             background-color: rgba(223, 31, 31, 0.747);
             height: 140px;
             width: 185px;
             border-radius: 150px 0px 150px 20px;
             position: absolute;
             top: 313px;
-            z-index: 1;
             left: 196.5px;
-            rotate: 17deg;
+            transform: rotate(17deg);
+            z-index: 1;
         }
         
     </style>
@@ -188,6 +202,6 @@
         <div class="m5"></div>
         <div class="m6"></div>
         <div class="t"></div>
-</div>
+    </div>
 </body>
 </html>
